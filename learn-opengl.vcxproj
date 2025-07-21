@@ -172,10 +172,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="deps\src\glad.c" />
+    <ClCompile Include="src\gfx\window.c" />
     <ClCompile Include="src\main.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\defines.h" />
+    <ClInclude Include="include\gfx\window.h" />
     <ClInclude Include="include\log.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

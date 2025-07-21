@@ -21,12 +21,18 @@
     <ClCompile Include="deps\src\glad.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\gfx\window.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\defines.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gfx\window.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
