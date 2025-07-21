@@ -32,8 +32,5 @@
     <ClInclude Include="include\log.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\gfx\window.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
