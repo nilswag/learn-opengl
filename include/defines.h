@@ -1,5 +1,6 @@
 #pragma once
 #include <stdint.h>
+#include <string.h>
 
 typedef _Bool bool;
 #define true  1
