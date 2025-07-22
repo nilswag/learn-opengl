@@ -177,6 +177,7 @@
   <ItemGroup>
     <ClInclude Include="include\defines.h" />
     <ClInclude Include="include\log.h" />
+    <ClInclude Include="include\util\vec.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

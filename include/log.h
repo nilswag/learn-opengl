@@ -49,10 +49,10 @@ static inline void log(enum log_level level, const char* file, u32 line, const c
         exit(EXIT_FAILURE);
 }
 
-#define LOG_INFO(msg, ...) log(LOG_LEVEL_INFO, __FILENAME__, __LINE__, msg, ##__VA_ARGS__)
-#define LOG_WARN(msg, ...) log(LOG_LEVEL_WARN, __FILENAME__, __LINE__, msg, ##__VA_ARGS__)
-#define LOG_ERROR(msg, ...) log(LOG_LEVEL_ERROR, __FILENAME__, __LINE__, msg, ##__VA_ARGS__)
-#define LOG_FATAL(msg, ...) log(LOG_LEVEL_FATAL, __FILENAME__, __LINE__, msg, ##__VA_ARGS__)
+#define LOG_INFO(msg, ...) do { log(LOG_LEVEL_INFO, __FILENAME__, __LINE__, msg, ##__VA_ARGS__); } while (false)
+#define LOG_WARN(msg, ...) do { log(LOG_LEVEL_WARN, __FILENAME__, __LINE__, msg, ##__VA_ARGS__); } while (false)
+#define LOG_ERROR(msg, ...) do { log(LOG_LEVEL_ERROR, __FILENAME__, __LINE__, msg, ##__VA_ARGS__); } while (false)
+#define LOG_FATAL(msg, ...) do { log(LOG_LEVEL_FATAL, __FILENAME__, __LINE__, msg, ##__VA_ARGS__); } while (false)
 
 #else
 
