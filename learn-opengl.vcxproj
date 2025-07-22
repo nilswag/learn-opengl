@@ -172,7 +172,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="deps\src\glad.c" />
-    <ClCompile Include="src\gfx\window.c" />
     <ClCompile Include="src\main.c" />
   </ItemGroup>
   <ItemGroup>
