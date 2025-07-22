@@ -1,5 +1,6 @@
 #include "defines.h"
 #include "log.h"
+#include "util/vec.h"
 #include <glad/glad.h>
 #include <glfw/glfw3.h>
 
